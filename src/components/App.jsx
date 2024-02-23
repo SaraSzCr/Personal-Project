@@ -8,14 +8,17 @@ function App() {
         <header className="header">
           <h1 className="header__title">Cocinar con lo que tengo</h1>
         </header>
-        <section>
-        <p>
-          ¿No sabes qué comer? ¿No tienes tiempo para ir hoy a la compra? Con
-          esta app, vamos a crear recetas fáciles ¡con los ingredientes que ya
-          tienes en casa!
-        </p>
-        <a href="">Empezar (siguiente pagina)</a>
-      </section>
+        
+        <main className="main">
+          <p className="main__desc">
+            ¿No sabes qué comer? ¿No tienes tiempo para ir hoy a la compra? Con
+            esta app, vamos a crear recetas fáciles ¡con los ingredientes que ya
+            tienes en casa!
+          </p>
+          <a className="main__startBtn" href="">Empezar </a> 
+          {/* (siguiente pagina) */}
+        </main>
+
      
 
       <header className="header">

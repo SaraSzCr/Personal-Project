@@ -1,1 +1,41 @@
-@import 'core/reset';
+@import "core/reset";
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  &__title {
+    color: cadetblue;
+    font-style: oblique;
+  }
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+  &__desc{
+    align-items: center;
+    font-size: 16px;
+    width: 50%;
+    line-height: 1,7;
+  }
+  &__startBtn{
+    border: solid 3px green;
+    color: black;
+    background-color: darkgrey;
+    border-radius: 10%;
+    padding: 5px;
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: end;
+  padding: 25px;
+  font-weight: bold;
+
+}
