@@ -1,5 +1,8 @@
 @import "core/reset";
 
+body {
+  background-color: bisque;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -11,19 +14,19 @@
   }
 }
 
-.main{
+.mainLanding {
   display: flex;
   flex-direction: column;
   gap: 15px;
   align-items: center;
 
-  &__desc{
+  &__desc {
     align-items: center;
     font-size: 16px;
     width: 50%;
-    line-height: 1,7;
+    line-height: 1, 7;
   }
-  &__startBtn{
+  &__startBtn {
     border: solid 3px green;
     color: black;
     background-color: darkgrey;
@@ -32,10 +35,65 @@
   }
 }
 
-.footer{
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+  &__sectionOne--form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+
+    &--label{
+      margin-top: 20px;
+    }
+  
+
+    &--input{
+      width: 200px;
+      height: 30px;
+    }
+  }
+
+  &__sectionTwo{
+    margin-top: 50px;
+
+    &--selectedIngredients{
+      color: rgb(83, 83, 227);
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    &--box{
+      border: solid green;
+      height: 200px;
+      margin: 20px;
+    
+
+    }
+    
+  }
+
+  &__sectionThree{
+    &--btn{
+      border: solid 3px green;
+      color: black;
+      background-color: darkgrey;
+      border-radius: 10%;
+      padding: 5px;
+      font-size: 16px;
+    }
+
+  }
+}
+
+.footer {
   display: flex;
   justify-content: end;
   padding: 25px;
   font-weight: bold;
-
 }
