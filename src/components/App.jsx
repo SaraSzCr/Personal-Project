@@ -10,8 +10,12 @@ import Results from "./SearchForRecipe/Results";
 import ButtonLink from "./SearchForRecipe/ButtonLink";
 import { Route, Routes } from "react-router-dom";
 import Search from "./SearchForRecipe/Search";
+import { useState } from "react";
 
 function App() {
+
+  const [addIngredients, setAddIngredients] = useState("");
+
   return (
     <div>
       <Header />
@@ -22,7 +26,7 @@ function App() {
           path="/main"
           element={
             <main className="main">
-              <Search />
+              <Search setAddIngredients={setAddIngredients} />
 
               <Results />
 
