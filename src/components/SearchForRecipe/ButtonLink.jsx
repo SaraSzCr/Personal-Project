@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function ButtonLink() {
   return (
-    <section className="main__sectionThree">
-      <button className="main__sectionThree--btn">Buscar recetas</button>
+    <section className="search__sectionThree">
+      <button className="search__sectionThree--btn">Buscar recetas</button>
 
       <Link className="btn_return" to="/">
         {" "}

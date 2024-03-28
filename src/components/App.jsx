@@ -1,13 +1,15 @@
 import "../scss/App.scss";
 import "../scss/LandingApp.scss";
+import "../scss/Search.scss";
+import "../scss/Results.scss";
 
-import Filter from "./Filter";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./mainApp/Footer";
+import Header from "./mainApp/Header";
 import LandingApp from "./LandingApp";
-import Results from "./Results";
-import ButtonLink from "./buttonLink";
+import Results from "./SearchForRecipe/Results";
+import ButtonLink from "./SearchForRecipe/ButtonLink";
 import { Route, Routes } from "react-router-dom";
+import Search from "./SearchForRecipe/Search";
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
           path="/main"
           element={
             <main className="main">
-              <Filter />
+              <Search />
 
               <Results />
 

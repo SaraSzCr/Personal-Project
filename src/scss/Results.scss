@@ -1,0 +1,19 @@
+.results__sectionOne{
+  margin-top: 50px;
+
+  &--selectedIngredients{
+    color: rgb(83, 83, 227);
+    font-weight: bold;
+    font-size: 20px;
+
+
+  }
+
+  &--box{
+    border: solid green;
+    height: 200px;
+    margin: 10px;
+
+
+  }
+}

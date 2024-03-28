@@ -1,11 +1,11 @@
-.header__landing {
-  background-image: url("/images/cooking.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 300px;
+.main__landing {
+  // background-image: url("/images/cooking.jpg");
+  // background-size: cover;
+  // background-position: center;
+  // width: 100vw;
+  // height: 300px;
 
-  &--title{
+  &--title {
     color: cadetblue;
     font-style: oblique;
     display: flex;
@@ -13,8 +13,6 @@
     position: absolute;
     top: 70px;
     padding: 7px;
-  
-
   }
 }
 
@@ -23,18 +21,16 @@
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  
 
   &--desc {
-    font-size: 16px;
+    font-size: 18px;
     width: 50%;
     line-height: 1.7;
     display: flex;
     gap: 10px;
     flex-direction: column;
     position: absolute;
-    bottom: 220px;
-   
+    top: 220px;
   }
   &--startBtn {
     border: solid 3px rgb(0, 15, 128);
@@ -43,21 +39,11 @@
     border-radius: 10%;
     padding: 5px;
     position: absolute;
-    bottom: 100px;
+    bottom: 180px;
     text-decoration: none;
-    
+
     // display: flex;
     // justify-content: center;
     // align-items: center;
   }
-}
-.footer__landing{
-  // display: flex;
-  // justify-content: end;
-  // padding: 25px;
-  font-weight: bold;
-  position: absolute;
-  bottom: 10px;
-  left: 220px;
-  
 }

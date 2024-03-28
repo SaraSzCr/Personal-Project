@@ -1,15 +1,15 @@
 import "../scss/App.scss";
 import "../scss/LandingApp.scss";
 import { Link } from "react-router-dom";
+// import Footer from "./Footer";
+// import Header from "./Header";
 
 function LandingApp() {
   return (
     <div>
-      {/* <img src="" alt="Imagen Hero" /> */}
 
-      {/* <header className="header__landing">
-        <h1 className="header__landing--title">Cocinar con lo que tengo</h1>
-      </header> */}
+      {/* <Header></Header> */}
+
 
       <main className="main__landing">
         <p className="main__landing--desc">
@@ -17,14 +17,12 @@ function LandingApp() {
           esta app, vamos a crear recetas fáciles.
           <strong>¡Con los ingredientes que ya tienes en casa!</strong>
         </p>
-        <Link className="main__landing--startBtn" to="/main">
-          Empezar{" "}
+        <Link className="main__landing--startBtn" to="/main"> Registrarse
+          {/* Empezar{" "} */}
         </Link>
-
-        {/* (siguiente pagina) */}
       </main>
 
-      {/* <footer className="footer__landing">&copy; by SaraSzCr</footer> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 }
